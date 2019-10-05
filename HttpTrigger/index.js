@@ -1,4 +1,4 @@
-const addon = require('../native/index.node');
+const addon = require('../native');
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
     console.log(addon.hello());
