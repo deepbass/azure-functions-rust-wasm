@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "neon-cli": "^0.3.1"
+    "rust-npm": "file:../rust-npm/pkg"
   },
-  "scripts": {
-    "install": "neon build --release"
-  },
+  "scripts": {},
   "devDependencies": {}
 }
