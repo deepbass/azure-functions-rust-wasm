@@ -10,3 +10,8 @@ fn hello(mut cx: FunctionContext) -> JsResult<JsString> {
 register_module!(mut cx, {
     cx.export_function("hello", hello)
 });
+
+#[no_mangle]
+pub extern fn __cxa_pure_virtual() {
+    loop{};
+}
