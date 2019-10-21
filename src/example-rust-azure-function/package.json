@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
+    "mathjs": "^6.2.3",
     "rust-npm": "file:../rust-npm/pkg"
   },
   "scripts": {},
